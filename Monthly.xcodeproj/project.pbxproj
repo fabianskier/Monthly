@@ -16,6 +16,8 @@
 		0786568928A1FA6C006B8C72 /* MonthlyWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0786568828A1FA6C006B8C72 /* MonthlyWidget.swift */; };
 		0786568B28A1FA6D006B8C72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0786568A28A1FA6D006B8C72 /* Assets.xcassets */; };
 		0786568F28A1FA6D006B8C72 /* MonthlyWidgetExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 0786568128A1FA6C006B8C72 /* MonthlyWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		0786569528A20688006B8C72 /* MonthConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0786569428A20688006B8C72 /* MonthConfig.swift */; };
+		0786569728A2085A006B8C72 /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0786569628A2085A006B8C72 /* Color+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,8 @@
 		0786568828A1FA6C006B8C72 /* MonthlyWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthlyWidget.swift; sourceTree = "<group>"; };
 		0786568A28A1FA6D006B8C72 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0786568C28A1FA6D006B8C72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0786569428A20688006B8C72 /* MonthConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthConfig.swift; sourceTree = "<group>"; };
+		0786569628A2085A006B8C72 /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +130,8 @@
 		0786568728A1FA6C006B8C72 /* MonthlyWidget */ = {
 			isa = PBXGroup;
 			children = (
+				0786569628A2085A006B8C72 /* Color+Extension.swift */,
+				0786569428A20688006B8C72 /* MonthConfig.swift */,
 				0786568828A1FA6C006B8C72 /* MonthlyWidget.swift */,
 				0786568A28A1FA6D006B8C72 /* Assets.xcassets */,
 				0786568C28A1FA6D006B8C72 /* Info.plist */,
@@ -243,6 +249,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0786569528A20688006B8C72 /* MonthConfig.swift in Sources */,
+				0786569728A2085A006B8C72 /* Color+Extension.swift in Sources */,
 				0786568928A1FA6C006B8C72 /* MonthlyWidget.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
